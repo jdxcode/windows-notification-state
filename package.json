@@ -1,5 +1,5 @@
 {
-  "name": "windows-notification-state",
+  "name": "@jdxcode/windows-notification-state",
   "version": "1.3.3",
   "description": "SHQueryUserNotificationState as a native Node addon",
   "main": "lib/index.js",
@@ -18,11 +18,7 @@
     "bindings": "^1.5.0",
     "nan": "^2.14.0"
   },
-  "author": {
-    "email": "felix@felixrieseberg.com",
-    "name": "Felix Rieseberg",
-    "url": "http://www.felixrieseberg.com"
-  },
+  "author": "@jdxcode",
   "keywords": [
     "windows",
     "SHQueryUserNotificationState",
