@@ -20,7 +20,7 @@ NAN_METHOD(GetNotificationState) {
   info.GetReturnValue().Set(Int32::New(isolate, returnValue));
 }
 
-NAN_MODULE_INIT(Init) {
+NAN_MODULE_WORKER_INIT(Init) {
   Nan::SetMethod(target, "getNotificationState", GetNotificationState);
 }
 
